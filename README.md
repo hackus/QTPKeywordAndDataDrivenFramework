@@ -3,8 +3,7 @@ QTPKeywordAndDataDriverFramework
 
 This framework exemplifies how can QTP be used in a style similar to cucumber.
 
-ContactDetails
-
+Contact details:<br>
 mail: hakkussg@gmail.com<br>
 <a href="http://www.linkedin.com/pub/mircea-sirghi/32/6b5/700/" target="_blank">Find me on linkedin.</a>
 
