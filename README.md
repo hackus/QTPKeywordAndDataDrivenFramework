@@ -37,8 +37,6 @@ Public Function evalJS(oBrowser, sJavaScript, bSeverity)
 End Function
 '================================
 
-
-
 '================================
 'Description : Function used to make QTP wait till the page content is loaded
 'Arguments   : obrowser(Browser)
