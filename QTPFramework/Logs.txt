@@ -1,0 +1,35 @@
+2/13/2014 4:55:03 PM 'SearchGoogleTest' execution has been Started
+
+
+2/13/2014 4:55:03 PM Starting function: [fnReadKeywords]
+2/13/2014 4:55:03 PM Starting function: [ActionSearchString]
+2/13/2014 4:55:03 PM Starting function: [openBrowser]
+2/13/2014 4:55:04 PM IE browser started.
+2/13/2014 4:55:04 PM   Ending function: [openBrowser]
+2/13/2014 4:55:13 PM Starting function: [fnSetValue]
+2/13/2014 4:55:16 PM Value - 'test' entered in Field - 'txtSearchField edit box',Passed
+2/13/2014 4:55:16 PM   Ending function: [fnSetValue]
+2/13/2014 4:55:16 PM Starting function: [evalJS]
+2/13/2014 4:55:17 PM evaluation complete value is [complete]
+2/13/2014 4:55:17 PM   Ending function: [evalJS]
+2/13/2014 4:55:17 PM Starting function: [evalJS]
+2/13/2014 4:55:18 PM evaluation complete value is [complete]
+2/13/2014 4:55:18 PM   Ending function: [evalJS]
+2/13/2014 4:55:18 PM   Ending function: [ActionSearchString]
+2/13/2014 4:55:18 PM Starting function: [ActionSelectFirstFoundLink]
+2/13/2014 4:55:19 PM Starting function: [evalJS]
+2/13/2014 4:55:20 PM evaluation complete value is [interactive]
+2/13/2014 4:55:20 PM   Ending function: [evalJS]
+2/13/2014 4:55:20 PM   Ending function: [ActionSelectFirstFoundLink]
+2/13/2014 4:55:20 PM Starting function: [ActionMoveBackToTheGooglePage]
+2/13/2014 4:55:22 PM Starting function: [evalJS]
+2/13/2014 4:55:24 PM evaluation complete value is [interactive]
+2/13/2014 4:55:24 PM   Ending function: [evalJS]
+2/13/2014 4:55:24 PM   Ending function: [ActionMoveBackToTheGooglePage]
+2/13/2014 4:55:24 PM   Ending function: [fnReadKeywords]
+2/13/2014 4:55:24 PM Starting function: [closeBrowser]
+2/13/2014 4:55:25 PM IE browser closed.
+2/13/2014 4:55:25 PM   Ending function: [closeBrowser]
+
+
+2/13/2014 4:55:25 PM 'SearchGoogleTest' execution has been Completed
