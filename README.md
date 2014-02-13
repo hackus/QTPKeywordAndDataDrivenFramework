@@ -5,6 +5,7 @@ This framework exemplifies how can QTP be used in a style similar to cucumber.
 
 ContactDetails
 mail: hakkussg@gmail.com
+
 <a href="http://www.linkedin.com/pub/mircea-sirghi/32/6b5/700/" target="_blank">Find me on linkedin.</a>
 
 One of the most important function in website automation is the WaitForPageToLoad which somehow is not available in QTP. Here is how I am doing this and it works: 
