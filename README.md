@@ -5,6 +5,7 @@ This framework exemplifies how can QTP be used in a style similar to cucumber.
 
 
 One of the most important function in website automation is the WaitForPageToLoad which somehow is not available in QTP. Here is how I am doing this and it works: 
+<pre>
 <code>
 '================================
 'Description : Function used to execute javascript code in QTP
@@ -76,4 +77,4 @@ Function WaitForPageToLoad(oBrowser)
 End Function
 '================================
 </code>
-
+</pre>
