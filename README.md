@@ -40,7 +40,7 @@ End Function
 '================================
 'Description : Function used to make QTP wait till the page content is loaded
 'Arguments   : obrowser(Browser)
-'Author: Mircea Sirghi(hakkussg@gmail.com, www.linkedin.com/pub/mircea-sirghi/32/6b5/700/)
+'Author: Mircea Sirghi(hakkussg@gmail.com, <a href="www.linkedin.com/pub/mircea-sirghi/32/6b5/700/" target="_blank">Find me on linkedin.</a> )
 '================================
 Function WaitForPageToLoad(oBrowser)
 	Dim fname:fname = "evalJS"	
