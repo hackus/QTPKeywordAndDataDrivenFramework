@@ -60,12 +60,16 @@ Function WaitForPageToLoad(oBrowser)
 				& " test();"
 	Do 
 		Wait 1
+	
 		i=i+1
+	
 		If((StrComp(evalJS(oBrowser, javaScriptCode, false),"complete") = 0) OR (StrComp(evalJS(oBrowser, javaScriptCode, false),"interactive") = 0))Then
 			completed = true
 			Exit Do
 		End If
-	Loop While i<30
+		
+	Loop While i < 30
+	
 	
 	Dim testVal:testVal = evalJS(oBrowser, javaScriptCode, true)
 	
