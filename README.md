@@ -67,7 +67,7 @@ Function WaitForPageToLoad(oBrowser)
 		End If
 	Loop While i &lt; 30
 	
-	Dim testVal:testVal = evalJS(oBrowser, javaScriptCode, true)<br>
+	Dim testVal:testVal = evalJS(oBrowser, javaScriptCode, true)
 	
 	gLogger.LogWrite("evaluation complete value is [" & testVal & "]")
 	
