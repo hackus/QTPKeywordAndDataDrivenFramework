@@ -60,22 +60,17 @@ Function WaitForPageToLoad(oBrowser)
 				& " test();"
 	Do 
 		Wait 1
-	
 		i=i+1
-	
 		If((StrComp(evalJS(oBrowser, javaScriptCode, false),"complete") = 0) OR (StrComp(evalJS(oBrowser, javaScriptCode, false),"interactive") = 0))Then
 			completed = true
 			Exit Do
 		End If
-		
-	Loop While i < 30
-	
-	
-	Dim testVal:testVal = evalJS(oBrowser, javaScriptCode, true)
-	
+	Loop While i < 30<br>
+	<br>
+	Dim testVal:testVal = evalJS(oBrowser, javaScriptCode, true)<br>
+	<br>
 	gLogger.LogWrite("evaluation complete value is [" & testVal & "]")
-	
-	
+	<br>
 	If(completed <> true)Then
 		Call gLogger.LogWarning(fname, "The page completed state is not 'complete' it might be that the test have run while the page was not completely loaded.")
 	End If	
