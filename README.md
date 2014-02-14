@@ -14,7 +14,7 @@ One of the most important function in website automation is the WaitForPageToLoa
 'Description : Function used to execute javascript code in QTP
 'Arguments   : obrowser(Browser)
 '            : sJavaScript(String) javascript code to be executed
-'Source      : http://www.softwareinquisition.com/81.htm
+'Source      : <a href="http://www.softwareinquisition.com/81.htm" target="_blank">http://www.softwareinquisition.com/81.htm</a>
 '================================
 Public Function evalJS(oBrowser, sJavaScript, bSeverity)
 	Dim fname:fname = "evalJS"	
