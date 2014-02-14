@@ -71,6 +71,7 @@ Function WaitForPageToLoad(oBrowser)
 	
 	gLogger.LogWrite("evaluation complete value is [" & testVal & "]")
 	
+	
 	If(completed <> true)Then
 		Call gLogger.LogWarning(fname, "The page completed state is not 'complete' it might be that the test have run while the page was not completely loaded.")
 	End If	
