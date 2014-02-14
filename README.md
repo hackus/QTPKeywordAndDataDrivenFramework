@@ -30,7 +30,7 @@ Public Function evalJS(oBrowser, sJavaScript, bSeverity)
 	evalJS = JSEntry.eval(sJavaScript)
 	
 	'Call gLogger.LogWrite("evalJs Value ["&evalJS&"]")
-	If(Err.Number <> 0 And bSeverity = true)Then
+	If(Err.Number &lt;&gt; 0 And bSeverity = true)Then
 		Call gLogger.LogException(fname, "Error occured while running the javascript code : [" & sJavaScript & "]")
 	End IF
 
@@ -65,12 +65,12 @@ Function WaitForPageToLoad(oBrowser)
 			completed = true
 			Exit Do
 		End If
-	Loop While i < 30<br>
-	<br>
+	Loop While i &lt; 30
+	
 	Dim testVal:testVal = evalJS(oBrowser, javaScriptCode, true)<br>
-	<br>
+	
 	gLogger.LogWrite("evaluation complete value is [" & testVal & "]")
-	<br>
+	
 	If(completed <> true)Then
 		Call gLogger.LogWarning(fname, "The page completed state is not 'complete' it might be that the test have run while the page was not completely loaded.")
 	End If	
