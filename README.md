@@ -1,4 +1,4 @@
-QTPKeywordAndDataDrivenFramework
+QTP Keyword And Data Driven Framework
 ================================
 
 This framework exemplifies how can QTP be used in a style similar to cucumber.
